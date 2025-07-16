@@ -1,0 +1,408 @@
+@charset "UTF-8";
+
+H1 {
+	TEXT-ALIGN: left;
+}
+H2 {
+	TEXT-ALIGN: left;
+}
+H3 {
+	TEXT-ALIGN: left;
+}
+H4 {
+	TEXT-ALIGN: left;
+	FONT: bold
+}
+H5 {
+	TEXT-ALIGN: left;
+	FONT: italic
+}
+H6 {
+	TEXT-ALIGN: left;
+	FONT: small-caps
+}
+
+/*
+H1 {
+	FONT: 170% Verdana
+}
+H2 {
+	FONT: 140% Verdana
+}
+H3 {
+	FONT: 120% Verdana
+}
+H4 {
+	FONT: bold 100% Verdana
+}
+H5 {
+	FONT: italic 100% Verdana
+}
+H6 {
+	FONT: small-caps 100% Verdana
+}
+H6 {
+	FONT: small-caps 100% sans-serif
+}
+*/
+
+
+/*  BODY  설정  */
+BODY {
+	FONT-SIZE: 		10pt;
+/*
+	FONT-FAMILY: 		sans-serif;
+	FONT-FAMILY: 		굴림;
+*/	
+	COLOR: 			#A0A0A0;
+	BACKGROUND-COLOR:	#303030;
+}
+
+A:link {
+	COLOR: #C0C0C0; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #C0C0C0; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #C0C0C0; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+
+
+/* 수평선 설정 */  
+ HR { 
+ 	COLOR:	#B0B0B0;
+}
+
+/* INPUT, TEXTAREA TAG의 속성 설정 */
+INPUT,TEXTAREA,SELECT {
+		
+		FONT-SIZE:	9pt;
+		/*HEIGHT:		20px; */
+		BORDER: SOLID 1;
+		/*BORDER-COLOR: #7D8E9C; */
+}
+
+INPUT.clsBorder {
+		border: NONE;
+}	
+
+
+A.clsGreen:link {
+	COLOR: #B0B0B0; TEXT-DECORATION: none
+}
+A.clsGreen:visited {
+	COLOR: #B0B0B0; TEXT-DECORATION: none
+}
+A.clsGreen:active {
+	COLOR: #B0B0B0; TEXT-DECORATION: none
+}
+A.clsGreen:hover {
+	COLOR: #B0B0B0; TEXT-DECORATION: underline
+}
+
+/**
+ * A link의 text 효과 제거
+ *
+ */
+A.clsNonDec:hover {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.clsNonDec:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.clsNonDec:visited {
+	COLOR: black; TEXT-DECORATION: none
+}
+
+TD,TH { font-size: 10pt}
+
+TD.clsBG {
+	BACKGROUND-COLOR: #EFEFEF;
+}
+
+TD.clsBG1 {
+	BACKGROUND-COLOR: #7D8E9C;
+}
+
+TD.clsBG2 {
+	BACKGROUND-COLOR: #808080;
+}
+
+TD.clsBG3 {
+	BACKGROUND-COLOR: #d4d0c8;
+}
+
+TD.clsBG4 {	
+ 	BACKGROUND-COLOR: #404040;	
+}
+
+
+TR.clsBG4 {	
+ 	BACKGROUND-COLOR: #404040;	
+}
+
+/*
+ * 테이블 배경 색깔 0~3까지는 메뉴에서, 4~7까지는 context
+ */
+TABLE.clsBG {
+	BACKGROUND-COLOR: #202020;
+}
+
+TABLE.clsBG1 {
+	BACKGROUND-COLOR: #7D8E9C;
+}
+
+TABLE.clsBG2 {
+	BACKGROUND-COLOR: #808080;
+}
+
+TABLE.clsBG3 {
+	BACKGROUND-COLOR: #d4d0c8;
+}
+
+TABLE.clsBG4 {	
+ 	BACKGROUND-COLOR: #909090;	
+}
+
+/*
+ * 배경 색깔
+ */
+ 
+.clsBG {
+	BACKGROUND-COLOR: #EFEFEF;
+}
+
+.clsBG1 {
+	BACKGROUND-COLOR: #F7F7F7;
+}
+ 
+.clsBG2 {
+	BACKGROUND-COLOR: #808080;
+}
+.clsBG3 {
+	BACKGROUND-COLOR: #d4d0c8;
+}
+
+/**
+ * Button Raised Bar 효과를 줌
+ *
+ * 원리: 위,왼쪽, 아래,오른쪽에 border color주어 입체감을 만든다.
+ */ 
+TD.clsBBarRaised {
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid;	
+}
+
+TD.clsDarkBBarRaised {
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid;	
+}
+
+TD.clsBBarSunken {
+	BORDER-TOP: #808080 1px solid;	BORDER-LEFT: #808080 1px solid;
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid;			
+}
+
+/**
+ * Button 효과를 만듬
+ *
+ * 원리: javascript와 연동하여 up,down,on,off 효과를 만든다.
+ *
+ * 이 버튼은 Button Bar에 올라가는 버튼이다.
+ */
+ 
+TD.clsBarBtnUp {	
+	BORDER-TOP: #ffffff 1px solid;	BORDER-LEFT: #ffffff 1px solid;
+	BORDER-RIGHT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid;
+	CURSOR: hand; 		
+}
+
+TD.clsBarBtnDown {
+	BORDER-TOP: #808080 1px solid;	BORDER-LEFT: #808080 1px solid;	
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-BOTTOM: #ffffff 1px solid;
+	CURSOR: hand;	
+}
+
+/**
+ * Flat button이다.
+ * 
+ * 예 : 툴바의 button에서 이용한다(dark). 
+ */
+ 
+TD.clsBtnUp {	
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid;	
+	CURSOR: hand; 		
+}
+
+TD.clsBtnDown {
+	BORDER-TOP: #808080 1px solid;	BORDER-LEFT: #808080 1px solid;	
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid;	
+	CURSOR: hand;	
+}
+
+
+TD.clsDarkBtnUp {	
+	BORDER-TOP: #EFEFEF 1px solid;	BORDER-LEFT: #EFEFEF 1px solid;
+	BORDER-RIGHT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid;
+	CURSOR: hand; 		
+}
+
+TD.clsDarkBtnDown {
+	BORDER-TOP: #000000 1px solid;	BORDER-LEFT: #000000 1px solid;	
+	BORDER-RIGHT: #EFEFEF 1px solid; BORDER-BOTTOM: #EFEFEF 1px solid;	
+	CURSOR: hand;	
+}
+
+TD.clsDarkBtnOff {
+	BORDER-TOP: #7d8e9c 1px solid BORDER-LEFT: #7d8e9c 1px solid;
+	BORDER-RIGHT: #7d8e9c 1px solid; BORDER-BOTTOM: #7d8e9c 1px solid;
+}
+
+
+/**
+ * Raised 버튼이다
+ *
+ * 예 : Menu의 Bar에 이용된다(dark). 글 리스트에서 타이틀에이용.
+ */
+TD.clsRaisedBtnUp {		
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid;	
+	CURSOR: hand;			
+}
+
+TD.clsRaisedBtnDown {		
+	BORDER-TOP:  #505050 1px solid;	BORDER-LEFT: #505050 1px solid;
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid;
+	CURSOR: hand;
+}
+
+TD.clsRaisedBtnOff {
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid;	
+	CURSOR: hand; 	
+}
+
+TD.clsDarkRaisedBtnUp {		
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid;	
+	CURSOR: hand;			
+}
+
+TD.clsDarkRaisedBtnDown {		
+	BORDER-TOP:  #505050 1px solid;	BORDER-LEFT: #505050 1px solid;
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid;
+	CURSOR: hand;
+}
+
+TD.clsDarkRaisedBtnOff {
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid;	
+	CURSOR: hand; 	
+}
+
+
+
+/**
+ * Raised Bar
+ */
+TABLE.clsBBarRaised {
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid;			
+}
+
+TABLE.clsDarkBBarRaised {
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid;		
+}
+
+TABLE.clsBBarSunken {
+	BORDER-TOP: #808080 1px solid;	BORDER-LEFT: #808080 1px solid;
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid;			
+}
+
+/** 
+ * Flat Button
+ */
+TABLE.clsBtnUp {	
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid;	
+	CURSOR: hand; 		
+}
+
+TABLE.clsBtnDown {
+	BORDER-TOP: #808080 1px solid;	BORDER-LEFT: #808080 1px solid;	
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid;	
+	CURSOR: hand;	
+}
+
+TABLE.clsBtnOn {}
+TABLE.clsBtnOff {
+	BORDER-LEFT: #EFEFEF 1px solid;
+	BORDER-RIGHT: #EFEFEF 1px solid;
+}
+
+TABLE.clsDarkBtnUp {	
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid;	
+	CURSOR: hand; 		
+}
+
+TABLE.clsDarkBtnDown {
+	BORDER-TOP: #808080 1px solid;	BORDER-LEFT: #808080 1px solid;	
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid;	
+	CURSOR: hand;	
+}
+
+TABLE.clsDarkBtnOn {}
+TABLE.clsDarkBtnOff {
+	BORDER-TOP: #d4d0c8 1px solid BORDER-LEFT: #d4d0c8 1px solid;
+	BORDER-RIGHT: #d4d0c8 1px solid; BORDER-BOTTOM: #d4d0c8 1px solid;
+}
+
+/**
+ * Raised 버튼이다
+ */
+TABLE.clsRaisedBtnUp {		
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid;	
+	CURSOR: hand;			
+}
+
+TABLE.clsRaisedBtnDown {		
+	BORDER-TOP:  #505050 1px solid;	BORDER-LEFT: #505050 1px solid;
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid;
+	CURSOR: hand;
+}
+
+TABLE.clsRaisedBtnOn {}
+
+TABLE.clsRaisedBtnOff {
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid;	
+	CURSOR: hand; 	
+}
+
+TABLE.clsDarkRaisedBtnUp {		
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid;	
+	CURSOR: hand;			
+}
+
+TABLE.clsDarkRaisedBtnDown {		
+	BORDER-TOP:  #505050 1px solid;	BORDER-LEFT: #505050 1px solid;
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid;
+	CURSOR: hand;
+}
+
+TABLE.clsDarkRaisedBtnOn {}
+
+TABLE.clsDarkRaisedBtnOff {
+	BORDER-TOP: white 1px solid;	BORDER-LEFT: white 1px solid;
+	BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid;	
+	CURSOR: hand; 	
+}
