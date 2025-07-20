@@ -1,0 +1,16 @@
+main:
+
+  - title: "About"
+    url: /about/
+
+  - title: Posts
+    url: /year-archive/
+
+  - title: Notion
+    url: https://donghoonlee.notion.site/dhlee-info-22e2dd9be02680c7818ed05f6445d346?pvs=74
+
+  - title: Tistory Blog
+    url: http://blog.dhlee.info
+
+  - title: Tistory Admin
+    url: https://dhleeinfo1.tistory.com/admin
