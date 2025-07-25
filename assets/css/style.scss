@@ -1,0 +1,92 @@
+---
+---
+
+@import "minima";
+
+/* --- Minima 다크 모드 고정 스타일 시작 --- */
+
+// 다크 모드 색상 변수 정의 (항상 적용)
+:root {
+  --text-color: #c9d1d9;          /* 밝은 회색 */
+  --background-color: #0d1117;    /* 아주 어두운 파랑-회색 (GitHub 다크모드 유사) */
+  --link-color: #58a6ff;          /* 밝은 파랑 */
+  --border-color: #30363d;        /* 어두운 회색 테두리 */
+  --header-bg-color: #161b22;     /* 조금 더 어두운 헤더 배경 */
+  --blockquote-color: #8b949e;    /* 조금 밝은 인용문 색 */
+  --code-bg-color: #161b22;       /* 어두운 코드 블록 배경 */
+  --code-text-color: #c9d1d9;     /* 밝은 코드 텍스트 */
+  --table-border-color: #30363d;
+}
+
+// 변수를 사용하여 Minima 테마의 요소 색상 오버라이드
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+
+  a {
+    color: var(--link-color);
+  }
+
+  .site-header {
+    background-color: var(--header-bg-color);
+    border-bottom-color: var(--border-color);
+  }
+
+  .site-title {
+    color: var(--text-color);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    border-bottom-color: var(--border-color);
+  }
+
+  blockquote {
+    color: var(--blockquote-color);
+    border-left-color: var(--border-color);
+  }
+
+  .highlight {
+    background-color: var(--code-bg-color);
+  }
+  pre, code {
+      background-color: var(--code-bg-color);
+      color: var(--code-text-color);
+  }
+  .post-content table {
+    border-color: var(--table-border-color);
+  }
+  .post-content table th, .post-content table td {
+      border-color: var(--table-border-color);
+  }
+}
+
+.page-link {
+  color: #f0f0f0 !important; /* 밝은 회색으로 변경, 필요에 따라 색상 코드 조정 */
+  &:visited {
+    color: #cccccc !important; /* 방문한 링크는 조금 더 어둡게 (선택 사항) */
+  }
+}
+
+/* 다크 모드가 고정된 경우, body 선택자를 사용하여 명확히 지정할 수도 있습니다 */
+body.dark-mode .page-link { /* 만약 body.dark-mode 클래스를 사용하는 경우 */
+  color: #f0f0f0 !important;
+  &:visited {
+    color: #cccccc !important;
+  }
+}
+
+/* Minima 테마의 메뉴 링크 색상을 오버라이드합니다 */
+.site-nav .trigger .page-link {
+    color: var(--text-color) !important; /* 다른 텍스트와 같은 색상으로 설정 */
+}
+.site-nav .trigger .page-link:visited {
+    color: var(--text-color) !important; /* 방문한 링크도 같은 색상 */
+}
+
+// hover 시 색상 변경 (선택 사항)
+.site-nav .trigger .page-link:hover {
+    color: var(--link-color) !important; /* 링크 색상 변수 사용 */
+}
+
+/* --- Minima 다크 모드 고정 스타일 끝 --- */
