@@ -14,6 +14,7 @@ bundler -v
 jekyll new . --force
 
 jekyll serve
+
 bundle exec jekyll serve
 
 

@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "716a6abb656a6468",
+    "type": "split",
+    "children": [
+      {
+        "id": "db9e8a68ed7286e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3665adde5013ea00",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "85c31c1e43943384",
+    "type": "split",
+    "children": [
+      {
+        "id": "47e60cc7b5c092b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cc6c23e9b4273ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "bdb2a3527220add6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "4977568125ed6252",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a36436ad520f28e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "330ec248ba949a88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab526b041e0f0905",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "ba513bfb257cc006",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "0e9fcbe50a3f95bd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "9d28cd698414c862",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "3665adde5013ea00",
+  "lastOpenFiles": [
+    "_site/economics/2025/08/03/next_in_kospi.html",
+    "_site/economics/2025/08/03",
+    "_site/economics/2025/08",
+    "README.md",
+    "_posts/2025-08-03-next_in_kospi.md",
+    "_drafts/2025-08-03-next_in_kospi.md",
+    "_posts/2025-08-02-jekyll_related.md",
+    "_drafts/2025-08-02-jekyll_related.md",
+    "_posts/2025-07-15-ai.md",
+    "_posts/2025-07-14-economics.md",
+    "md/2025-07-15.md",
+    "md/list.md",
+    "md/2025-07-14.md"
+  ]
+}
