@@ -11,13 +11,32 @@
             "id": "3665adde5013ea00",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-08-03-next_in_kospi.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "2025-08-03-next_in_kospi"
+            }
+          },
+          {
+            "id": "9917b55afd491927",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-08-11-R_news.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-11-R_news"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2025-08-03-next_in_kospi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "2025-08-03-next_in_kospi 의 백링크"
             }
           },
           {
@@ -108,11 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2025-08-03-next_in_kospi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "2025-08-03-next_in_kospi 의 나가는 링크"
             }
           },
           {
@@ -136,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "_posts/2025-08-03-next_in_kospi.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "2025-08-03-next_in_kospi 의 개요"
             }
           }
         ]
@@ -161,15 +183,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3665adde5013ea00",
+  "active": "9917b55afd491927",
   "lastOpenFiles": [
+    "_posts/2025-08-11-R_news.md",
+    "_posts/2025-08-03-next_in_kospi.md",
+    "_posts/2025-08-02-jekyll_related.md",
     "_site/economics/2025/08/03/next_in_kospi.html",
     "_site/economics/2025/08/03",
     "_site/economics/2025/08",
     "README.md",
-    "_posts/2025-08-03-next_in_kospi.md",
     "_drafts/2025-08-03-next_in_kospi.md",
-    "_posts/2025-08-02-jekyll_related.md",
     "_drafts/2025-08-02-jekyll_related.md",
     "_posts/2025-07-15-ai.md",
     "_posts/2025-07-14-economics.md",
